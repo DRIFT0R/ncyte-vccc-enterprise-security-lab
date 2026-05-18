@@ -10,6 +10,8 @@ The project used a segmented enterprise architecture with separate WAN, DMZ, tra
 
 This repository contains a portfolio version of the project documentation, architecture notes, screenshots, diagrams, and implementation summaries.
 
+!(screenshots/logos/ncyte-logo.png)
+
 ## My Role
 
 I contributed heavily to the design, implementation, documentation, project management, web application development, AI chatbot workflow, monitoring, and security validation portions of the CyberShield environment.
