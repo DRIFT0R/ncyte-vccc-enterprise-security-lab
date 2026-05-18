@@ -291,7 +291,7 @@ screenshots/
   prometheus-targets.png
   database-queries.png
 
-sanitized-configs/
+configs/
   firewall-rules-summary.md
   dns-records-summary.md
   prometheus-config-example.yml
