@@ -30,6 +30,12 @@ My primary responsibilities included:
 - Helped document firewall rules, IP addressing, routing, NAT, service ports, and infrastructure dependencies
 - Contributed to vulnerability assessment and remediation planning
 
+## Documentation
+
+- [Case Study](docs/case-study.md)
+- [Network Configuration Record](docs/network-configuration-record.md)
+- [Project Management Summary](docs/project-management-summary.md)
+
 ## Project Scope
 
 The CyberShield environment included the following major components:
