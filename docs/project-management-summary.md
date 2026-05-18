@@ -99,7 +99,7 @@ The project timeline covered several phases:
 - Service mapping
 - Final presentation materials
 
-![Gantt Chart](screenshots/database/gantt-chart.png)
+![Gantt Chart](/screenshots/database/gantt-chart.png)
 
 ## Project Management Skills Demonstrated
 
