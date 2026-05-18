@@ -265,21 +265,13 @@ Prometheus collected metrics from Windows Exporter and Linux Node Exporter endpo
 - Vulnerability assessment planning
 - Project management
 
-## Screenshots
+## Network Configuration Record
 
-Screenshots included in this repository demonstrate:
+The Network Configuration Record documents the technical design and implementation details of the CyberShield environment, including network zones, IP addressing, firewall rules, routing, Active Directory/DNS, web server configuration, AI integration, database setup, monitoring, email services, workstation validation, backup/recovery, and service dependencies.
 
-- network topology
-- firewall configuration
-- web application interface
-- product/service catalog
-- shopping cart and checkout flow
-- AI chatbot interface
-- database records
-- Prometheus targets
-- Grafana dashboards
-- DNS/service validation
-- workstation access testing
+[View the Network Configuration Record](docs/network-configuration-record.md)
+
+![Network Configuration Record Cover](screenshots/infrastructure/network-config-record-cover.png)
 
 ## Project Management
 
