@@ -113,7 +113,7 @@ All inter-zone communication was controlled through firewall rules and routing p
 
 ### Security & Validation
 
-- CSET/NIST assessment
+- CSET NIST CSF assessment
 - Network segmentation
 - DMZ isolation
 - Least-privilege traffic flow
