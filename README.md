@@ -8,7 +8,7 @@ CyberShield is a simulated B2B cybersecurity services company built as part of a
 
 The project used a segmented enterprise architecture with separate WAN, DMZ, transit, and internal LAN zones. Traffic between zones was controlled through an OPNsense firewall and VyOS routing infrastructure. Public-facing services were hosted in the DMZ, while identity services, workstations, monitoring, and administrative resources were placed in the trusted internal LAN.
 
-This repository contains a  portfolio version of the project documentation, architecture notes, screenshots, diagrams, and implementation summaries.
+This repository contains a portfolio version of the project documentation, architecture notes, screenshots, diagrams, and implementation summaries.
 
 ## My Role
 
@@ -46,7 +46,7 @@ The CyberShield environment included the following major components:
 | Email | Internal hMailServer deployment for lab communication |
 | Workstations | Windows 11 and RHEL clients joined to enterprise services |
 | Backup & Recovery | MariaDB backup and restore testing |
-| Project Management | Gantt chart, Kanban board, task tracking, documentation, team communcations, and service mapping |
+| Project Management | Gantt chart, Kanban board, task tracking, documentation, team communications, and service mapping |
 
 ## Architecture Summary
 
@@ -264,39 +264,22 @@ Key lessons included:
 ## Repository Contents
 
 ```text
-docs/
-  project-case-study.md
-  network-configuration-record-sanitized.md
-  ai-chatbot-workflow.md
-  web-application-architecture.md
-  database-design.md
-  monitoring-and-analytics.md
-  firewall-and-routing-summary.md
-  project-management-summary.md
-  lessons-learned.md
-
-diagrams/
-  network-topology.png
-  traffic-flow.png
-  web-app-architecture.png
-  ai-workflow.png
-
-screenshots/
-  web-homepage.png
-  shopping-cart.png
-  chatbot.png
-  ai-leads-table.png
-  opnsense-firewall.png
-  grafana-dashboard.png
-  prometheus-targets.png
-  database-queries.png
-
-configs/
-  firewall-rules-summary.md
-  dns-records-summary.md
-  prometheus-config-example.yml
-  database-schema.md
-
-project-management/
-  gantt-summary.md
-  work-breakdown-structure.md
+cybershield-enterprise-infrastructure/
+│
+├── README.md
+│
+├── docs/
+│   ├── case-study.md
+│   ├── network-configuration-record.md
+│   └── project-management-summary.md
+│
+├── diagrams/
+│   ├── network-topology.png
+│   └── ai-workflow.png
+│
+└── screenshots/
+    ├── web-app/
+    ├── monitoring/
+    ├── infrastructure/
+    └── database/
+```
