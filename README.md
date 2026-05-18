@@ -141,6 +141,46 @@ All inter-zone communication was controlled through firewall rules and routing p
 - Contributed to project documentation, Gantt planning, and service mapping
 - Completed a CSET/NIST-style baseline assessment and contributed to vulnerability assessment planning
 
+## Visual Walkthrough
+
+### Enterprise Network Architecture
+
+The CyberShield environment used a segmented enterprise architecture with separate WAN, DMZ, transit, and internal LAN zones. The network diagram shows the relationship between the firewall, routing infrastructure, DMZ services, internal LAN systems, Active Directory/DNS, web server, database server, and client workstations.
+
+![CyberShield Network Diagram](screenshots/infrastructure/network-diagram.png)
+
+### Web Application with AI Chatbot
+
+The CyberShield web platform provided a public-facing interface for the simulated cybersecurity company. The homepage included an integrated AI chatbot designed to support customer interaction, product/service guidance, and lead generation.
+
+![CyberShield Homepage with Chatbot](screenshots/web-app/website-homepage-with-chatbot.png)
+
+### Product and Service Catalog
+
+The web application included cybersecurity product and service listings for CyberShield’s simulated business offerings. This helped demonstrate database-backed product retrieval, web application functionality, and e-commerce-style user flow.
+
+![CyberShield Products Page](screenshots/web-app/website-products.png)
+
+### AI Agentic Workflow
+
+The AI chatbot workflow classified user intent, generated product or service recommendations, assigned a lead priority level, routed the lead to the appropriate business function, and stored structured results in the backend database.
+
+![CyberShield Agentic Workflow](screenshots/database/agentic-workflow.png)
+
+### Monitoring and Analytics
+
+Prometheus and Grafana were used to collect and visualize infrastructure metrics from Windows and Linux systems. The dashboards provided visibility into system health, resource usage, uptime, and operational status.
+
+![Grafana Dashboard](screenshots/monitoring/grafana-dashboard.png)
+
+![Grafana RHEL Dashboard](screenshots/monitoring/grafana-dashboard-rhel.png)
+
+### Project Planning
+
+The project used a Gantt chart to organize workstreams, deadlines, implementation phases, documentation tasks, and final deliverables.
+
+![CyberShield Gantt Chart](screenshots/database/gantt-chart.png)
+
 ## Web Application
 
 The CyberShield web application was hosted on a Windows Server system in the DMZ. IIS handled inbound HTTP/HTTPS traffic and reverse-proxied requests to a Flask application running through Waitress on localhost.
@@ -264,22 +304,24 @@ Key lessons included:
 ## Repository Contents
 
 ```text
-cybershield-enterprise-infrastructure/
-│
-├── README.md
-│
-├── docs/
-│   ├── case-study.md
-│   ├── network-configuration-record.md
-│   └── project-management-summary.md
-│
-├── diagrams/
-│   ├── network-topology.png
-│   └── ai-workflow.png
-│
-└── screenshots/
-    ├── web-app/
-    ├── monitoring/
-    ├── infrastructure/
-    └── database/
+docs/
+  case-study.md
+  network-configuration-record.md
+  project-management-summary.md
+
+screenshots/
+  database/
+    agentic-workflow.png
+    gantt-chart.png
+
+  infrastructure/
+    network-diagram.png
+
+  monitoring/
+    grafana-dashboard-rhel.png
+    grafana-dashboard.png
+
+  web-app/
+    website-homepage-with-chatbot.png
+    website-products.png
 ```
