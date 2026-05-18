@@ -4,7 +4,7 @@
 
 ## Overview
 
-CyberShield is a simulated B2B cybersecurity services company built as part of an enterprise infrastructure deployment project for NCyTE's Virtual Cybersecurity Career Challenge (VCCC). The environment was designed to support realistic business operations, including secure network segmentation, centralized identity services, public-facing web services, database-backed e-commerce functionality, AI-assisted lead generation, internal email, monitoring, and disaster recovery planning.
+CyberShield is a simulated B2B cybersecurity services company built as part of an enterprise infrastructure deployment project for NCyTE's Virtual Cybersecurity Career Challenge (VCCC), on which I worked with a team for about five months. The environment was designed to support realistic business operations, including secure network segmentation, centralized identity services, public-facing web services, database-backed e-commerce functionality, AI-assisted lead generation, internal email, monitoring, and disaster recovery planning.
 
 The project used a segmented enterprise architecture with separate WAN, DMZ, transit, and internal LAN zones. Traffic between zones was controlled through an OPNsense firewall and VyOS routing infrastructure. Public-facing services were hosted in the DMZ, while identity services, workstations, monitoring, and administrative resources were placed in the trusted internal LAN.
 
