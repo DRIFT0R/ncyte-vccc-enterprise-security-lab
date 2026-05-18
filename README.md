@@ -271,8 +271,6 @@ The Network Configuration Record documents the technical design and implementati
 
 [View the Network Configuration Record](docs/network-configuration-record.md)
 
-![Network Configuration Record Cover](screenshots/infrastructure/network-config-record-cover.png)
-
 ## Project Management
 
 In addition to technical implementation, this project required structured project coordination. I created and maintained project planning materials, including the Gantt chart and task breakdown. The work breakdown structure tracked business concept development, web management, database management, AI infrastructure, analytics, documentation, and vulnerability assessment tasks.
